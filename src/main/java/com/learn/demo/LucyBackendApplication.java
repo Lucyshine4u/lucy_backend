@@ -29,6 +29,7 @@ public class LucyBackendApplication {
 
     private LoginResponseVo getResponse(boolean type) {
         LoginResponseVo vo = new LoginResponseVo();
+        vo.setIsSuccess(type);
         if (type) {
             vo.setMessage("Login Successful");
         } else {

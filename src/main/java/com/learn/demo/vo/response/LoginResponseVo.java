@@ -9,4 +9,5 @@ import lombok.Data;
 @Data
 public class LoginResponseVo {
     private String message;
+    private Boolean isSuccess;
 }
